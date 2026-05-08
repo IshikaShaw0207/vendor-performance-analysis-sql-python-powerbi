@@ -39,14 +39,14 @@ Effective inventory and sales management are critical in the retail sector. This
 
 ---
 
-<h2><a class="anchor" id="📁dataset"></a>Dataset</h2>
+<h2><a class="anchor" id="dataset"></a>📁Dataset</h2>
 
 - Multiple CSV files located in `/data/` folder (sales, vendors, inventory)
 - Summary table created from ingested data and used for analysis
 
 ---
 
-<h2><a class="anchor" id="🛠️tools-technologies"></a>Tools & Technologies</h2>
+<h2><a class="anchor" id="tools-technologies"></a>🛠️Tools & Technologies</h2>
 
 - SQL (Common Table Expressions, Joins, Filtering)
 - Python (Pandas, Matplotlib, Seaborn, SciPy)
@@ -78,7 +78,7 @@ Vendor Sales Analysis project/
 
 ---
 
-<h2><a class="anchor" id="🧹data-cleaning-preparation"></a>Data Cleaning & Preparation</h2>
+<h2><a class="anchor" id="data-cleaning-preparation"></a>🧹Data Cleaning & Preparation</h2>
 
 - Removed transactions with:
   - Gross Profit ≤ 0
@@ -89,7 +89,7 @@ Vendor Sales Analysis project/
 
 ---
 
-<h2><a class="anchor" id="🔍exploratory-data-analysis-eda"></a>Exploratory Data Analysis (EDA)</h2>
+<h2><a class="anchor" id="exploratory-data-analysis-eda"></a>🔍Exploratory Data Analysis (EDA)</h2>
 
 ### **Negative or Zero Values Detected:**
 
@@ -110,7 +110,7 @@ Vendor Sales Analysis project/
 
 ---
 
-<h2><a class="anchor" id="💡research-questions-key-findings"></a>Research Questions & Key Findings</h2>
+<h2><a class="anchor" id="research-questions-key-findings"></a>💡Research Questions & Key Findings</h2>
 
 1. **Brands for Promotions:** 198 brands with low sales but high profit margins
 
@@ -127,7 +127,7 @@ Vendor Sales Analysis project/
 6. **Hypothesis Testing:** Statistically significant difference in profit margins → distinct vendor strategies
 
 ---
-<h2><a class="anchor" id="📊dashboard"></a>Dashboard</h2>
+<h2><a class="anchor" id="dashboard"></a>📊Dashboard</h2>
 
 - Power BI Dashboard shows:
   - Vendor-wise Sales and Margins

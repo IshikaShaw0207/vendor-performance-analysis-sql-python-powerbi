@@ -23,7 +23,25 @@ _Analyzing vendor efficiency and profitability to support strategic purchasing a
 
 <h2><a class="anchor" id="overview"></a>Overview</h2>
 
-This project evaluates vendor performance and retail inventory dynamics to drive strategic insights for purchasing, pricing, and inventory optimization. A complete data pipeline was built using SQL for ETL, Python for analysis and hypothesis testing, and Power BI for visualization.
+This project focuses on analyzing vendor performance, procurement efficiency, inventory management, and profitability trends using SQL, Python, SQLite, and Power BI.
+
+The objective of this project is to transform raw retail and procurement data into actionable business insights that can support strategic vendor management and data-driven decision-making.
+
+The project demonstrates a complete end-to-end analytics workflow including:
+
+Data ingestion & database creation
+
+Data cleaning & preprocessing
+
+SQL-based data analysis
+
+Exploratory Data Analysis (EDA)
+
+Statistical analysis & KPI generation
+
+Interactive dashboard development
+
+Business reporting & recommendations
 
 ---
 
@@ -48,10 +66,13 @@ Effective inventory and sales management are critical in the retail sector. This
 
 <h2><a class="anchor" id="tools-technologies"></a>🛠️Tools & Technologies</h2>
 
-- SQL (Common Table Expressions, Joins, Filtering)
-- Python (Pandas, Matplotlib, Seaborn, SciPy)
-- Power BI (Interactive Visualizations)
-- GitHub
+- Programming	- Python
+- Database - SQLite, MYSQL
+- Data Analysis -	Pandas, NumPy
+- Visualization -	Matplotlib, Seaborn
+- Dashboarding - Power BI, DAX
+- Development Tools - Jupyter Notebook, Git, GitHub
+- Statistical Analysis - SciPy
 
 ---
 
@@ -132,7 +153,9 @@ Vendor Sales Analysis project/
 - Power BI Dashboard shows:
   - Vendor-wise Sales and Margins
   - Inventory Turnover
+  - Unsold Capital Analysis
   - Bulk Purchase Savings
+  - KPI Cards & Trend Visualizations
   - Performance Heatmaps
 
 ![Vendor Performance Dashboard](images/Dashboard_image.png)
@@ -168,17 +191,20 @@ python scripts/get_vendor_summary.py
 
 <h2><a class="anchor" id="final-recommendations"></a>Final Recommendations</h2>
 
-- Diversify vendor base to reduce risk
-- Optimize bulk order strategies
-- Reprice slow-moving, high-margin brands
-- Clear unsold inventory strategically
-- Improve marketing for underperforming vendors
+- Diversify vendor partnerships to reduce dependency risk.
+- Focus promotional strategies on high-margin low-sales products.
+- Optimize procurement strategy using bulk purchase discounts.
+- Improve inventory turnover through better stock management.
+- Monitor vendor KPIs regularly for strategic decision-making.
 
 ---
 
 <h2><a class="anchor" id="author--contact"></a>Author & Contact</h2>
 
 **Ishika Shaw**
+
+Aspiring Data Analyst passionate about data analytics, business intelligence, and data-driven decision making.
+
 📧 Email: ishikashaw0207@gmail.com
 🔗 [LinkedIn](https://www.linkedin.com/in/ishikashaw0207)
 
